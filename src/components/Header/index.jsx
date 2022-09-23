@@ -24,9 +24,9 @@ const Header = () => {
       {navModal === false ? <></>
         :
         <NavContainer>
-          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri.github.io/#top" target="_top">About me</NavButton>
-          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri.github.io/#techs">Skills and tools</NavButton>
-          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri.github.io/#projects">Projects</NavButton>
+          <NavButton onClick={() => setNavModal(false)} href="https://pauloguarnieri.github.io/#top" target="_top">About me</NavButton>
+          <NavButton onClick={() => setNavModal(false)} href="https://pauloguarnieri.github.io/#techs">Skills and tools</NavButton>
+          <NavButton onClick={() => setNavModal(false)} href="https://pauloguarnieri.github.io/#projects">Projects</NavButton>
         </NavContainer>}
     </HeaderContainer>
   );
