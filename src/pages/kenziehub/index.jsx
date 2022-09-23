@@ -2,10 +2,13 @@ import Particulas from "../../components/Particles";
 import { PageContainer } from "../MainPage/styles";
 import { FullProjectContainer, ImageContainer, TextContainer1, TextContainer2, TextTotalContainer } from "./styles";
 import kenziehub from "../../images/kenziehub.png"
+import HeaderTech from "../../components/HeaderTech";
+
 const KenzieHubPage = () => {
     return (
         <PageContainer>
             <Particulas />
+            <HeaderTech />
             <FullProjectContainer>
                 <ImageContainer>
                     <img src={kenziehub} alt="print" />
@@ -14,14 +17,14 @@ const KenzieHubPage = () => {
                     <TextContainer1>
                         <h2>Kenzie Hub</h2>
 
-                        <h3>Description:</h3>
-                        <p translate="true">Kenziehub is a project I developed at Kenzie Academy BR that aims to register technologies, edit and delete them, has registration, login and specific permissions. The main objective was to develop the ability to connect the back end with the front end.</p>
-                        <h3>Project link: <a href="https://react-entrega-s2-kenzie-hub-pauloguarnieri.vercel.app/" rel="noreferrer" target="_blank">KenzieHub</a></h3>
-                        <h3>Repository: <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-pauloguarnieri" rel="noreferrer" target="_blank">KenzieHub</a></h3>
+                        <h3>Descrição:</h3>
+                        <p translate="true">Kenziehub é um projeto que desenvolvi na Kenzie Academy BR que visa registrar tecnologias, editá-las e excluí-las, possui cadastro, login e permissões específicas. O principal objetivo deste projeto foi treinar o relacionamento do back-end com o front-end.</p>
+                        <a href="https://react-entrega-s2-kenzie-hub-pauloguarnieri.vercel.app/" rel="noreferrer" target="_blank">Link do projeto</a>
+                        <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-pauloguarnieri" rel="noreferrer" target="_blank">Repositório</a>
                     </TextContainer1>
                     <TextContainer2>
                         <br />
-                        <h3>Tools used:</h3>
+                        <h3>Ferramentas utilizadas:</h3>
                         <ol>
                             <li>- Javascript</li>
                             <li>- React Js</li>
@@ -32,11 +35,11 @@ const KenzieHubPage = () => {
                             <li>- Json Web Token</li>
                             <li>- Vercel</li>
                         </ol>
-                        <h3>Developed by:</h3>
+                        <h3>Desenvolvido por:</h3>
                         <ol>
                             <li><a href="https://github.com/pauloguarnieri" rel="noreferrer" target="_blank">Paulo Guarnieri</a></li>
                         </ol>
-                        <h3>Version:</h3>
+                        <h3>Versão:</h3>
                         <p>1.0</p>
                     </TextContainer2>
                 </TextTotalContainer>

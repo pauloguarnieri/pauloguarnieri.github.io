@@ -28,16 +28,20 @@ const MainPage = () => {
                         <img src={paulo2} alt="foto" />
                     </div>
                     <div className="sobre">
-                        <h3>About me:</h3>
-                        <p>Hi, I'm Paulo, I've been interested in everything related to computing since I can remember. At first I didn't think about making it a profession, but at some point in my life it came to me.
-                            I've been investing in this path since 2020, I started with some basic courses and recently completed a Full Stack web development course. Now I'm finding my way as a backend developer by looking
-                            expand my knowledge and consolidate myself in this area.</p>
-                        <h4>Features:</h4>
+                        <h3 translate="true" >Sobre mim:</h3>
+                        <p translate="true">Olá, sou Paulo, me interesso por tudo relacionado a computação desde que me lembro.
+                            No começo eu não pensava em fazer disso uma profissão, mas em algum momento da
+                            minha vida isso veio até mim.
+                            Venho investindo nesse caminho desde 2020, comecei com alguns cursos básicos e
+                            recentemente concluí um curso de desenvolvimento web Full Stack. Agora estou
+                            buscando meu caminho como desenvolvedor de back-end procurando expandir
+                            meus conhecimentos e me consolidar nesta área.</p>
+                        <h4>Caracteristicas:</h4>
                         <ul>
-                            <li>- Organization</li>
-                            <li>- Good mood</li>
-                            <li>- Team work</li>
-                            <li>- Objectivity</li>
+                            <li>- Organização</li>
+                            <li>- Bom Humor</li>
+                            <li>- Trabalho em equipe</li>
+                            <li>- Objetividade</li>
                         </ul>
                         <LinksContainer id="techs">
                             <a href="https://www.github.com/pauloguarnieri" rel="noreferrer" target="_blank" title="GitHub"><VscGithub size={36} /></a>
@@ -48,7 +52,7 @@ const MainPage = () => {
                     </div>
                 </AboutContainer>
                 <TechContainer >
-                    <h3>Skills and tools:</h3>
+                    <h3>Habilidades e tecnologias:</h3>
                     <TechCardContainer id="tecnologias">
                         <CardContainer>
                             <SiJavascript size={70} title="Javascript" />
@@ -125,7 +129,7 @@ const MainPage = () => {
                     </TechCardContainer>
                 </TechContainer >
                 <ProjectContainer id="projects">
-                    <h3>Projects:</h3>
+                    <h3>Projetos:</h3>
                     <ProjectCardContainer>
                         <ProjectCard onClick={() => history.push('/project/kenziehub')}>
                             <img src={kenziehub} alt="Kenzie Hub" />
@@ -142,7 +146,7 @@ const MainPage = () => {
                     </ProjectCardContainer>
                 </ProjectContainer>
                 <FooterContainer>
-                    <h2>Contact Me:</h2>
+                    <h2>Contato:</h2>
                     <LinksContainer id="techs">
                         <a href="mailto:paulo.r.guarnieri@hotmail.com" rel="noreferrer" target="_blank" title="Email"><ImMail4 size={36} /></a>
                         <a href="https://www.github.com/pauloguarnieri" rel="noreferrer" target="_blank" title="GitHub"><VscGithub size={36} /></a>

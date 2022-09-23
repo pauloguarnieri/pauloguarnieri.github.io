@@ -56,19 +56,29 @@ export const TextContainer1 = styled.div`
         margin: 0;
         color: red;
         font-weight: 600;
-        a {
-            color: var(--color-grey3);
-            font-style: italic;
-            font-weight: 500;
-            :hover{
-                cursor: pointer;
-                color: white;
-            }
+        
+    }
+    a {
+        color: var(--color-grey1);
+        font-style: italic;
+        font-weight: 500;
+        padding: 8px;
+        border: 1px solid red;
+        margin: 3px 0;
+        text-align: center;
+        background-color: red;
+        border-radius: 3px;
+        font-weight: 700;
+        :hover{
+            cursor: pointer;
+            color: white;
+            background-color: transparent;
         }
     }
     p {
         color: white;
         line-height: 20px;
+        margin-bottom:8px;
     }
     @media (min-width: 780px) {
         margin-right: 2px;

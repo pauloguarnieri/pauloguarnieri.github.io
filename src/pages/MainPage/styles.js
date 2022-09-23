@@ -31,8 +31,8 @@ export const AboutContainer = styled.section`
         height: 120px;
         border-radius: 60px;
         /* background-color:rgb(255, 0, 0, 30%); */
-        background-color: red;
-        border: 2px solid var(--color-grey1)
+        background-color: rgb(255, 0, 0, 30%);;
+        border: 1.5px solid white;
     }
     p {
         color: white;
