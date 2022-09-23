@@ -14,9 +14,9 @@ const Header = () => {
       <img src={logo} alt="imagem logo" />
       {/* <FaGgCircle size={50} /> */}
       <MenuContainer className="desktopNav">
-        <a href="http://pauloguarnieri-github-io.vercel.app/#top">About Me</a>
-        <a href="http://pauloguarnieri-github-io.vercel.app/#techs">Skills and tools</a>
-        <a href="http://pauloguarnieri-github-io.vercel.app/#projects">Projects</a>
+        <a href="http://pauloguarnieri.github.io/#top">About Me</a>
+        <a href="http://pauloguarnieri.github.io/#techs">Skills and tools</a>
+        <a href="http://pauloguarnieri.github.io/#projects">Projects</a>
       </MenuContainer>
       <HeaderButton onClick={() => setNavModal(!navModal)}>
         {navModal === false ? <FaBars color="white" /> : <VscChromeClose color="white" />}
@@ -24,9 +24,9 @@ const Header = () => {
       {navModal === false ? <></>
         :
         <NavContainer>
-          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri-github-io.vercel.app/#top" target="_top">About me</NavButton>
-          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri-github-io.vercel.app/#techs">Skills and tools</NavButton>
-          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri-github-io.vercel.app/#projects">Projects</NavButton>
+          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri.github.io/#top" target="_top">About me</NavButton>
+          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri.github.io/#techs">Skills and tools</NavButton>
+          <NavButton onClick={() => setNavModal(false)} href="pauloguarnieri.github.io/#projects">Projects</NavButton>
         </NavContainer>}
     </HeaderContainer>
   );
