@@ -1,6 +1,7 @@
-import { SiAmazonaws, SiJavascript, SiPython, SiDjango, SiPostgresql, SiRedis, SiTypescript, SiExpress, SiReact, SiRedux, SiSqlite, SiDocker, SiMaterialui, SiGit, SiUbuntu, SiCss3, SiHtml5, SiWindows, SiHeroku, SiMongodb, SiJira, SiTrello, SiSlack, SiVisualstudiocode } from "react-icons/si";
+import { SiJavascript, SiPython, SiDjango, SiPostgresql, SiTypescript, SiExpress, SiReact, SiRedux, SiDocker, SiGit, SiUbuntu, SiCss3, SiHtml5, SiWindows } from "react-icons/si";
+//SiAmazonaws, SiRedis, SiSqlite, SiMaterialui, SiHeroku, SiMongodb, SiJira, SiTrello, SiSlack, SiVisualstudiocode
 import { PageContainer, AboutContainer, LinksContainer, TechContainer, TechCardContainer, CardContainer, ProjectContainer, ProjectCard, ProjectCardContainer, FooterContainer } from "./styles";
-import { TiSocialInstagramCircular, TiSocialLinkedinCircular } from "react-icons/ti";
+import { TiSocialLinkedinCircular } from "react-icons/ti"; //TiSocialInstagramCircular
 import { ImMail4 } from "react-icons/im";
 import paulo2 from "../../images/paulo2.png";
 import capstonem4 from "../../images/capstonem4.png";
