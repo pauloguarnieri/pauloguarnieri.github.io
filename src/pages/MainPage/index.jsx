@@ -29,12 +29,11 @@ const MainPage = () => {
                     </div>
                     <div className="sobre">
                         <h3 translate="true" >Sobre mim:</h3>
-                        <p translate="true">Olá, sou Paulo, me interesso por tudo relacionado a computação desde que me lembro.
-                            No começo eu não pensava em fazer disso uma profissão, mas em algum momento da
-                            minha vida isso veio até mim.
+                        <p translate="true">Olá, eu sou o Paulo, sempre me interessei por tudo relacionado a computador.
+                            No começo eu não pensava em fazer disso uma profissão, mas em algum momento isso veio até mim.
                             Venho investindo nesse caminho desde 2020, comecei com alguns cursos básicos e
                             recentemente concluí um curso de desenvolvimento web Full Stack. Agora estou
-                            buscando meu caminho como desenvolvedor de back-end procurando expandir
+                            buscando meu caminho como <b>desenvolvedor BACK END</b>, procurando expandir
                             meus conhecimentos e me consolidar nesta área.</p>
                         <h4>Caracteristicas:</h4>
                         <ul>
