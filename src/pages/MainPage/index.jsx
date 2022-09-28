@@ -51,7 +51,7 @@ const MainPage = () => {
                     </div>
                 </AboutContainer>
                 <TechContainer >
-                    <h3>Habilidades e tecnologias:</h3>
+                    <h3>Habilidades e ferramentas:</h3>
                     <TechCardContainer id="tecnologias">
                         <CardContainer>
                             <SiJavascript size={70} title="Javascript" />
