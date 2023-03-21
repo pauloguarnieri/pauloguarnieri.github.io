@@ -109,10 +109,10 @@ const MainPage = () => {
                             <SiGit size={70} title="Git" />
                             <h3>Git</h3>
                         </CardContainer>
-                        {/* <CardContainer>
+                        <CardContainer>
                             <SiMongodb size={70} title="Mongodb" />
                             <h3>Mongo DB</h3>
-                        </CardContainer> */}
+                        </CardContainer>
                         {/* <CardContainer>
                             <SiRedis size={70} title="Redis" />
                             <h3>Redis</h3>
