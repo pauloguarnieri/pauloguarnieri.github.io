@@ -1,5 +1,5 @@
-import { SiJavascript, SiPython, SiDjango, SiPostgresql, SiTypescript, SiExpress, SiReact, SiRedux, SiDocker, SiGit, SiUbuntu, SiCss3, SiHtml5, SiWindows } from "react-icons/si";
-//SiAmazonaws, SiRedis, SiSqlite, SiMaterialui, SiHeroku, SiMongodb, SiJira, SiTrello, SiSlack, SiVisualstudiocode
+import { SiJavascript, SiPython, SiDjango, SiPostgresql, SiMongodb, SiTypescript, SiExpress, SiReact, SiRedux, SiDocker, SiGit, SiCss3, SiHtml5, } from "react-icons/si";
+//SiAmazonaws, SiRedis, SiSqlite, SiMaterialui, SiHeroku, , SiJira, SiTrello, SiSlack, SiVisualstudiocode
 import { PageContainer, AboutContainer, LinksContainer, TechContainer, TechCardContainer, CardContainer, ProjectContainer, ProjectCard, ProjectCardContainer, FooterContainer } from "./styles";
 import { TiSocialLinkedinCircular } from "react-icons/ti"; //TiSocialInstagramCircular
 import { ImMail4 } from "react-icons/im";
@@ -29,12 +29,13 @@ const MainPage = () => {
                     </div>
                     <div className="sobre">
                         <h3 translate="true" >Sobre mim:</h3>
-                        <p translate="true">Olá, eu sou o Paulo, sempre me interessei por tudo relacionado a computador.
-                            No começo eu não pensava em fazer disso uma profissão, mas em algum momento isso veio até mim.
-                            Venho investindo nesse caminho desde 2020, comecei com alguns cursos básicos e
-                            recentemente concluí um curso de desenvolvimento web Full Stack. Agora estou
-                            buscando meu caminho como <b>desenvolvedor BACK END</b>, procurando expandir
-                            meus conhecimentos e me consolidar nesta área.</p>
+                        <p translate='true'>
+                            Olá, sou o Paulo e sempre tive interesse pelo mundo da tecnologia e dos computadores.
+                            Embora no início não pensasse em transformar isso em profissão, em 2021 decidi iniciar minha transição de carreira para a área de tecnologia,
+                            começando com hardware e, em seguida, migrando para programação. Concluí em 2022 um curso de Desenvolvimento Web Full Stack e,
+                            desde então, sigo me aperfeiçoando e estudando novas tecnologias, buscando oportunidades para coloca-las em prática.
+                            Meu foco é aprender, crescer e me consolidar profissionalmente na área de tecnologia.
+                        </p>
                         <h4>Caracteristicas:</h4>
                         <ul>
                             <li>- Organização</li>
@@ -46,7 +47,6 @@ const MainPage = () => {
                             <a href="https://www.github.com/pauloguarnieri" rel="noreferrer" target="_blank" title="GitHub"><VscGithub size={36} /></a>
                             <a href="https://www.linkedin.com/in/pauloguarnieri/" rel="noreferrer" target="_blank" title="LinkedIn" ><TiSocialLinkedinCircular size={50} /></a>
                             <a href="mailto:paulo.r.guarnieri@hotmail.com" rel="noreferrer" target="_blank" title="Email"><ImMail4 size={36} /></a>
-                            {/* <a href="https://www.instagram.com/paulo.guarnieri/" rel="noreferrer" target="_blank" title="Instagram"><TiSocialInstagramCircular size={50} /></a> */}
                         </LinksContainer>
                     </div>
                 </AboutContainer>
@@ -150,7 +150,6 @@ const MainPage = () => {
                         <a href="mailto:paulo.r.guarnieri@hotmail.com" rel="noreferrer" target="_blank" title="Email"><ImMail4 size={36} /></a>
                         <a href="https://www.github.com/pauloguarnieri" rel="noreferrer" target="_blank" title="GitHub"><VscGithub size={36} /></a>
                         <a href="https://www.linkedin.com/in/pauloguarnieri/" rel="noreferrer" target="_blank" title="LinkedIn" ><TiSocialLinkedinCircular size={50} /></a>
-                        {/* <a href="https://www.instagram.com/paulo.guarnieri/" rel="noreferrer" target="_blank" title="Instagram"><TiSocialInstagramCircular size={50} /></a> */}
                     </LinksContainer>
                 </FooterContainer>
             </PageContainer>
