@@ -117,14 +117,14 @@ const MainPage = () => {
                             <SiRedis size={70} title="Redis" />
                             <h3>Redis</h3>
                         </CardContainer> */}
-                        <CardContainer>
+                        {/* <CardContainer>
                             <SiUbuntu size={70} title="Linux - Ubuntu" />
                             <h3>Ubuntu</h3>
                         </CardContainer>
                         <CardContainer>
                             <SiWindows size={70} title="Windows" />
                             <h3>Windows</h3>
-                        </CardContainer>
+                        </CardContainer> */}
                     </TechCardContainer>
                 </TechContainer >
                 <ProjectContainer id="projects">
