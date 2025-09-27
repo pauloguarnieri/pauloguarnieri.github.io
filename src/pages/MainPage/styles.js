@@ -22,7 +22,7 @@ export const AboutContainer = styled.section`
     h3 {
         padding: 0;
         margin: 30px 0;
-        color: red;
+        color: darkred;
         text-align: left;
         font-weight: 500;
     }
@@ -45,7 +45,7 @@ export const AboutContainer = styled.section`
     h4 {
         padding: 0;
         margin: 20px 0 10px 0;
-        color: red;
+        color: darkred;
         text-align: left;
         font-weight: 400;
     }
@@ -92,12 +92,12 @@ export const LinksContainer = styled.div`
         width: 50px;
         height:50px;
         border-radius: 30px;
-        background-color: red;
+        background-color: darkred;
         /* border: 2px solid white; */
         margin: 0 3px;
         :hover{
             cursor: pointer;
-            border: 1px solid red;
+            border: 1px solid darkred;
             background-color: var(--color-grey1);
             color:white;
         }
@@ -133,14 +133,15 @@ export const TechContainer = styled.section`
 export const TechCardContainer = styled.div`
     width: 100%;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
+    gap: 15px;
 `
 
 export const CardContainer = styled.div`
-    background-color: red;
+    background-color: darkred;
     border-radius: 4px;
     width: 120px;
     height: 120px;
@@ -159,7 +160,7 @@ export const CardContainer = styled.div`
     }
     :hover {
         background-color: transparent;
-        border: 1px solid red;
+        border: 1px solid darkred;
         color: white;
         h3 {
             color: white;
@@ -214,14 +215,14 @@ export const ProjectCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
+    border: 1px solid darkred;
     border-radius: 4px;
     margin: 5px 0;
     img {
         width: 100%;
         max-width: 300px;
         height: 190px;
-        background-color: red;
+        background-color: darkred;
         padding: 0;
     }
     h4 {
@@ -257,7 +258,7 @@ export const FooterContainer = styled.footer`
     h2 {
         width: 100%;
         margin: 0;
-        color: red;
+        color: darkred;
     }
     @media (min-width: 780px) {
         flex-direction: column;

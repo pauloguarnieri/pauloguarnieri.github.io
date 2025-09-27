@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
   padding: 10px 15px;
   top: 0;
   box-sizing: border-box;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid darkred;
   color: white;
   z-index: 1;
   position: fixed;
@@ -45,7 +45,7 @@ export const NavContainer = styled.div`
   align-items: center;
   top: 49px;
   right: 15px;
-  background-color: rgb(255, 0, 0, 60%);
+  background-color: darkred;
   max-width: 294;
   width: 294px;
   padding: 1px 0.5px;
@@ -85,8 +85,8 @@ export const MenuContainer = styled.div`
     padding:10px 30px;
     margin: 0 3px;
     :hover {
-      color: red;
-      border: 1px solid red;
+      color: darkred;
+      border: 1px solid darkred;
       border-radius: 3px;
       cursor: pointer;
     }

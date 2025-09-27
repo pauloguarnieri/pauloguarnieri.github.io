@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-    background-color: darkred;
+    background-color: blue;
     border-radius: 4px;
     width: 120px;
     height: 120px;
@@ -14,7 +14,7 @@ export const CardContainer = styled.div`
         color: var(--color-grey1);
         :hover {
             background-color: var(--color-grey1);
-            color: red;
+            color: darkred;
             cursor: pointer;
             border: 2px solid white;
         }

@@ -47,14 +47,14 @@ export const TextContainer1 = styled.div`
     h2 {
         padding: 15px 0;
         margin: 0;
-        color: red;
+        color: darkred;
         font-size: 20px;
     }
     h3 {
         font-size: 16px;
         padding: 10px 0;
         margin: 0;
-        color: red;
+        color: darkred;
         font-weight: 600;
         
     }
@@ -63,10 +63,10 @@ export const TextContainer1 = styled.div`
         font-style: italic;
         font-weight: 500;
         padding: 8px;
-        border: 1px solid red;
+        border: 1px solid darkred;
         margin: 3px 0;
         text-align: center;
-        background-color: red;
+        background-color: darkred;
         border-radius: 3px;
         font-weight: 700;
         :hover{
@@ -99,7 +99,7 @@ export const TextContainer2 = styled.div`
         font-size: 16px;
         padding: 10px 0;
         margin: 0;
-        color: red;
+        color: darkred;
         font-weight: 600;
     }
     a {
@@ -108,7 +108,7 @@ export const TextContainer2 = styled.div`
         font-weight: 500;
         :hover {
             cursor: pointer;
-            color: red;
+            color: darkred;
         }
     }
     ol {

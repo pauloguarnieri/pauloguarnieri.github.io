@@ -18,6 +18,23 @@ const MainPage = () => {
 
     const history = useHistory();
 
+    const techs = [
+        { name: "Javascript", Icon: SiJavascript },
+        { name: "Python", Icon: SiPython },
+        { name: "Typescript", Icon: SiTypescript },
+        { name: "PostgreSQL", Icon: SiPostgresql },
+        { name: "Node.JS", Icon: FaNodeJs },
+        { name: "Django", Icon: SiDjango },
+        { name: "Express", Icon: SiExpress },
+        { name: "React.JS", Icon: SiReact },
+        { name: "Redux", Icon: SiRedux },
+        { name: "CSS3", Icon: SiCss3 },
+        { name: "HTML5", Icon: SiHtml5 },
+        { name: "Docker", Icon: SiDocker },
+        { name: "Git", Icon: SiGit },
+        { name: "Mongo DB", Icon: SiMongodb },
+    ];
+
     return (
         <main>
             <PageContainer>
@@ -53,7 +70,13 @@ const MainPage = () => {
                 <TechContainer >
                     <h3>Habilidades e ferramentas:</h3>
                     <TechCardContainer id="tecnologias">
-                        <CardContainer>
+                        {techs.map(({ name, Icon }) => (
+                            <CardContainer key={name}>
+                                <Icon size={70} title={name} />
+                                <h3>{name}</h3>
+                            </CardContainer>
+                        ))}
+                        {/* <CardContainer>
                             <SiJavascript size={70} title="Javascript" />
                             <h3>Javascript</h3>
                         </CardContainer>
@@ -89,10 +112,10 @@ const MainPage = () => {
                             <SiRedux size={70} title="Redux" />
                             <h3>Redux</h3>
                         </CardContainer>
-                        {/* <CardContainer>
+                        <CardContainer>
                             <SiAmazonaws size={70} title="AWS" />
                             <h3>AWS</h3>
-                        </CardContainer> */}
+                        </CardContainer>
                         <CardContainer>
                             <SiCss3 size={70} title="CSS 3" />
                             <h3>CSS3</h3>
@@ -113,11 +136,11 @@ const MainPage = () => {
                             <SiMongodb size={70} title="Mongodb" />
                             <h3>Mongo DB</h3>
                         </CardContainer>
-                        {/* <CardContainer>
+                        <CardContainer>
                             <SiRedis size={70} title="Redis" />
                             <h3>Redis</h3>
-                        </CardContainer> */}
-                        {/* <CardContainer>
+                        </CardContainer>
+                        <CardContainer>
                             <SiUbuntu size={70} title="Linux - Ubuntu" />
                             <h3>Ubuntu</h3>
                         </CardContainer>
